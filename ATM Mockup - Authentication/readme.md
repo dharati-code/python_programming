@@ -1,0 +1,8 @@
+- This project was done by me part of reskillamericans.us "Python track".
+- What I have implemented and improved part of current solution is as below :
+  -  Original solution by the instructor is [here](https://github.com/dharati-code/pythonclass/blob/main/auth.py)
+  -  Implemented [withdrawal and deposit functionality](https://github.com/dharati-code/pythonclass/blob/main/auth.py#L111-L125)
+  -  instead of using files, I learned and implemented to use database (sqlite3) which comes with native python installation. 
+      -  Created `user_info` table in the database. 
+      -  Used `insert` for new registration
+      -  Used `SELECT and update` for providing info on current and or updated balance (after withdrwal or deposit).
