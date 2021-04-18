@@ -1,8 +1,13 @@
 - This project was done by me part of reskillamericans.us "Python track".
 - What I have implemented and improved part of current solution is as below :
   -  Original solution by the instructor is [here](https://github.com/dharati-code/pythonclass/blob/main/auth.py)
-  -  Implemented [withdrawal and deposit functionality](https://github.com/dharati-code/pythonclass/blob/main/auth.py#L111-L125)
-  -  instead of using files, I learned and implemented to use database (sqlite3) which comes with native python installation. 
+  -  Implemented [withdrawal and deposit functionality](https://github.com/dharati-code/pythonclass/blob/main/auth.py#L111-L125) as here(https://github.com/dharati-code/python_programming/blob/main/ATM%20Mockup%20-%20Authentication/auth.py#L185-L223).
+  -  instead of using files, I learned and implemented to use database (`sqlite3`) which comes with native python installation. 
       -  Created `user_info` table in the database. 
       -  Used `insert` for new registration
       -  Used `SELECT and update` for providing info on current and or updated balance (after withdrwal or deposit).
+      -  created few functions to SELECT, INSERT and UPDATE sqlite3 database.
+
+- Below are some improvements that can be done with the current solution:
+  -  Check the length of account number - it should be 10 digit when input and provide better error handling.
+  -  Provide better error handling
